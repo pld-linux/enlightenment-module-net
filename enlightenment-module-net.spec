@@ -1,7 +1,3 @@
-#
-# TODO:
-# - add pl
-#
 %define		_module_name	net
 %define		_snap	20060420
 Summary:	Enlightenment DR17 module: net
@@ -26,6 +22,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Network device monitor.
+
+%description -l pl
+Monitor urz±dzeñ sieciowych.
 
 %prep
 %setup -q -n %{_module_name}
