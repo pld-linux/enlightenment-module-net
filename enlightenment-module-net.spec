@@ -1,7 +1,7 @@
 %define		_module_name	net
 %define		_snap	20060420
 Summary:	Enlightenment DR17 module: net
-Summary(pl.UTF-8):   Moduł Enlightenmenta DR17: net
+Summary(pl.UTF-8):	Moduł Enlightenmenta DR17: net
 Name:		enlightenment-module-%{_module_name}
 Version:	0.0.1
 Release:	0.%{_snap}.1
